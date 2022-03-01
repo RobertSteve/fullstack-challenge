@@ -49,23 +49,24 @@ Referencia del diseño
 8. Nombrame 3 escenarios donde podríamos usar middlewares para esta solución? 
 
 
-Pasos para la instalación
-Windows
-composer install
-npm install
-ni database/database.sqlite
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan db:seed
-php artisan serve
+# Pasos para la instalación
 
-Linux y Mac
-composer install
-npm install
-touch database/database.sqlite
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan db:seed
-php artisan serve
+** Windows
+1. composer install
+2. npm install
+3. ni database/database.sqlite
+4. cp .env.example .env
+5. php artisan key:generate
+6. php artisan migrate
+7. php artisan db:seed
+8. php artisan serve
+
+** Linux y Mac
+1. composer install
+2. npm install
+3. touch database/database.sqlite
+4. cp .env.example .env
+5. php artisan key:generate
+6. php artisan migrate
+7. php artisan db:seed
+8. php artisan serve
