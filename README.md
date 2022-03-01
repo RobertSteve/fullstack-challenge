@@ -47,3 +47,25 @@ Referencia del diseño
 6. Cómo utilizas las injecciones en nuxt?
 7. Qué hooks de nuxts implementaríamos en esta solución si quisieramos enviar una notificación al terminar de compilar?
 8. Nombrame 3 escenarios donde podríamos usar middlewares para esta solución? 
+
+
+Pasos para la instalación
+Windows
+composer install
+npm install
+ni database/database.sqlite
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
+php artisan serve
+
+Linux y Mac
+composer install
+npm install
+touch database/database.sqlite
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
+php artisan serve
